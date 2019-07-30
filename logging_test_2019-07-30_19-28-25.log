@@ -1,0 +1,42 @@
+**************  TEST_LOGGING  **************
+
+Analysis carried out: 2019-07-30_19-28-25
+Directory: /home/Desktop
+Version: 0.9.1.dev0
+
+
+**************  GIT INFO  **************
+
+Commit hash: b9551aff1e2b020542a5fb610fec468b69b87c6e 
+Commit message: Merge branch 'v0.9' 
+Commit date & time: Date: 2019-04-14, Time: 20-01-52 
+Commit author: Michael Waskom 
+Commit author email: mwaskom@nyu.edu
+
+
+**************  COMMAND LINE ARGUMENTS  **************
+
+Command: /home/adam/python/git_logging/EXAMPLE.py 
+Input arguments: ['/home/adam/Desktop', 'logging_test', 'TEST_LOGGING']
+
+
+**************  ALL OPTIONS  **************
+
+arg1: True
+another_arg: path/to/somewhere
+the_last_arg: 1000
+
+
+**************  PATHS  **************
+
+path1: /path/to/the_first_place
+path2: /path/to/the_second_place
+path3: /path/to/the_third_place
+
+
+**************  LOGGING  **************
+
+2019-07-30 19:28:26 PM - INFO - MainProcess context_logging.py:136 - Begin
+2019-07-30 19:28:26 PM - INFO - MainProcess EXAMPLE.py:37 - This is an info message
+2019-07-30 19:28:26 PM - DEBUG - MainProcess EXAMPLE.py:38 - This is a debug message
+2019-07-30 19:28:26 PM - WARNING - MainProcess EXAMPLE.py:39 - This fun logging experience is about to end :(
